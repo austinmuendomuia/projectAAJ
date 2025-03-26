@@ -4,8 +4,8 @@ import java.util.*;
 import java.time.*;
 import java.io.Serial;
 public class studentsql extends student{
-    public studentsql(int id, String Fname, String Lname, int Age, String Email, String Sex, Date DOB, int FacultyID, int courseID,String grade) {
-        super(id, Fname, Lname, Age, Email, Sex, DOB, FacultyID, courseID,grade);
+    public studentsql(int id, String Fname, String Lname, int Age, String Email, String Sex, Date DOB, int FacultyID, int courseID) {
+        super(id, Fname, Lname, Age, Email, Sex, DOB, FacultyID, courseID);
     }
 
     public List<student> getStudents(){

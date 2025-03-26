@@ -13,7 +13,7 @@ public class student extends getactualgrade implements Person {
     protected Date DOB;
     protected int FacultyID;
     protected int courseID;
-    private String grade;
+
 
 
     public student(int id,String Fname,String Lname,int Age,String Email,String Sex, Date DOB,int FacultyID,int courseID) {
